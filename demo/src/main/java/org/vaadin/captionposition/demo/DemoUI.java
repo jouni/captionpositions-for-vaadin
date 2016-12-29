@@ -41,6 +41,8 @@ public class DemoUI extends UI {
 	protected void init(VaadinRequest request) {
 
 		final VerticalLayout layout = new VerticalLayout();
+		layout.setMargin(true);
+		layout.setSpacing(true);
 
 		captionPositions = new CaptionPositions(layout);
 		captionPositions.setCaptionPosition(textField, currentPosition);
