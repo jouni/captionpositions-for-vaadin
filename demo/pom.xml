@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>org.vaadin.captionpositions</groupId>
 	<packaging>war</packaging>
-	<version>1.0.0</version>
+	<version>2.0.0</version>
 	<name>CaptionPositions add-on demo</name>
 
 	<prerequisites>
@@ -20,24 +20,22 @@
 		<jetty.plugin.version>9.3.9.v20160517</jetty.plugin.version>
 	</properties>
 
-    <!--
 	<organization>
-		<name>My Name</name>
-		<url>https://github.com/mygithubaccount/MyComponent/</url>
+		<name>Jouni Koivuviita</name>
+		<url>https://github.com/jouni/captionpositions-for-vaadin/</url>
 	</organization>
 
 	<scm>
-		<url>git://github.com/mygithubaccount/MyComponent.git</url>
-		<connection>scm:git:git://github.com/mygithubaccount/MyComponent.git</connection>
-		<developerConnection>scm:git:ssh://git@github.com:/mygithubaccount/${componentClassName}.git</developerConnection>
-		<tag>MyComponent add-on for Vaadin</tag>
+		<url>git://github.com/jouni/captionpositions-for-vaadin.git</url>
+		<connection>scm:git:git://github.com/jouni/captionpositions-for-vaadin.git</connection>
+		<developerConnection>scm:git:ssh://git@github.com:/jouni/${componentClassName}.git</developerConnection>
+		<tag>CaptionPositions add-on for Vaadin</tag>
 	</scm>
 
 	<issueManagement>
 		<system>GitHub</system>
-		<url>https://github.com/mygithubaccount/MyComponent/issues</url>
+		<url>https://github.com/jouni/captionpositions-for-vaadin/issues</url>
 	</issueManagement>
-    -->
 
 	<licenses>
 		<license>
