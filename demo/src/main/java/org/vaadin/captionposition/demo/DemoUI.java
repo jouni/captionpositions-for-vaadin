@@ -46,9 +46,9 @@ public class DemoUI extends UI {
 		captionPositions.setCaptionPosition(textField, currentPosition);
 		captionPositions.setCaptionPosition(textArea, currentPosition);
 
-		textArea.setRequiredIndicatorVisible(true);
+		textArea.setRequired(true);
 		textArea.setComponentError(new UserError("An error just to show the error indicator"));
-		textArea.setPlaceholder("Required and error indicators visible");
+		textArea.setInputPrompt("Required and error indicators visible");
 		textArea.setWidth("20em");
 
 		MenuBar options = createPositionOptions();

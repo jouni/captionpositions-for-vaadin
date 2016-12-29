@@ -6,7 +6,7 @@
 	<artifactId>captionpositions-root</artifactId>
 	<packaging>pom</packaging>
 	<version>1.0-SNAPSHOT</version>
-	<name>CaptionPositions add-on root Project</name>
+	<name>CaptionPositions add-on root project</name>
 
 	<prerequisites>
 		<maven>3</maven>
@@ -16,48 +16,5 @@
 		<module>addon</module>
 		<module>demo</module>
 	</modules>
-
-	<profiles>
-		<profile>
-			<!-- Vaadin pre-release repositories -->
-			<id>vaadin-prerelease</id>
-			<activation>
-				<activeByDefault>true</activeByDefault>
-			</activation>
-
-			<repositories>
-				<repository>
-					<id>vaadin-prereleases</id>
-					<url>http://maven.vaadin.com/vaadin-prereleases</url>
-				</repository>
-				<repository>
-					<id>vaadin-snapshots</id>
-					<url>https://oss.sonatype.org/content/repositories/vaadin-snapshots/</url>
-					<releases>
-						<enabled>false</enabled>
-					</releases>
-					<snapshots>
-						<enabled>true</enabled>
-					</snapshots>
-				</repository>
-			</repositories>
-			<pluginRepositories>
-				<pluginRepository>
-					<id>vaadin-prereleases</id>
-					<url>http://maven.vaadin.com/vaadin-prereleases</url>
-				</pluginRepository>
-				<pluginRepository>
-					<id>vaadin-snapshots</id>
-					<url>https://oss.sonatype.org/content/repositories/vaadin-snapshots/</url>
-					<releases>
-						<enabled>false</enabled>
-					</releases>
-					<snapshots>
-						<enabled>true</enabled>
-					</snapshots>
-				</pluginRepository>
-			</pluginRepositories>
-		</profile>
-	</profiles>
 
 </project>
