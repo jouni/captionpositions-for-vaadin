@@ -18,7 +18,7 @@ Try the add-on demo at http://jouni.app.fi/captionpositions-demo
 
 ## Download release
 
-Official releases of this add-on are available at Vaadin Directory. For Maven instructions, download and reviews, go to http://vaadin.com/addon/captionpositions
+Official releases of this add-on are available at Vaadin Directory. For Maven instructions, download and reviews, go to http://vaadin.com/addon/captionpositions-add-on
 
 ## Building and running demo
 
